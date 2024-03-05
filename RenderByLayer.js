@@ -31,7 +31,7 @@
         
         // Set output file name, ensuring valid file names by sanitizing layer name
         var sanitizedLayerName = layer.name.replace(/[^a-zA-Z0-9_-]/g, '_');
-        var outputPath = new File("D:/Exports/rndrrndr" + sanitizedLayerName + "_" + i + ".mov");
+        var outputPath = new File("D:/Exports/Render_" + sanitizedLayerName + "_" + i + ".mov");
         outputModule.file = outputPath;
     }
 
